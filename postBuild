@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ~
+wget -q https://ccl.northwestern.edu/netlogo/6.2.2/NetLogo-6.2.2-64.tgz
+tar xzf NetLogo-6.2.2-64.tgz
+ln -s "NetLogo 6.2.2" netlogo
+echo "export PATH=$PATH:~/netlogo/" >> ~/.profile
